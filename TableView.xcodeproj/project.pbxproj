@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		AD1ABFE42691DE090055126E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABFE32691DE090055126E /* AppDelegate.swift */; };
 		AD1ABFE62691DE090055126E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABFE52691DE090055126E /* SceneDelegate.swift */; };
-		AD1ABFE82691DE090055126E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABFE72691DE090055126E /* ViewController.swift */; };
 		AD1ABFEB2691DE0A0055126E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1ABFE92691DE0A0055126E /* Main.storyboard */; };
 		AD1ABFED2691DE0A0055126E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1ABFEC2691DE0A0055126E /* Assets.xcassets */; };
 		AD1ABFF02691DE0A0055126E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1ABFEE2691DE0A0055126E /* LaunchScreen.storyboard */; };
+		AD1ABFF82691E3C80055126E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABFF72691E3C80055126E /* TableViewController.swift */; };
+		AD1ABFFA2691E4260055126E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABFF92691E4260055126E /* AddViewController.swift */; };
+		AD1ABFFC2691E4350055126E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABFFB2691E4350055126E /* DetailViewController.swift */; };
+		AD1AC0002691E62E0055126E /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1ABFFD2691E62E0055126E /* clock.png */; };
+		AD1AC0012691E62E0055126E /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1ABFFE2691E62E0055126E /* cart.png */; };
+		AD1AC0022691E62E0055126E /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1ABFFF2691E62E0055126E /* pencil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD1ABFE02691DE090055126E /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1ABFE32691DE090055126E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD1ABFE52691DE090055126E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD1ABFE72691DE090055126E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD1ABFEA2691DE0A0055126E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD1ABFEC2691DE0A0055126E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD1ABFEF2691DE0A0055126E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD1ABFF12691DE0A0055126E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1ABFF72691E3C80055126E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AD1ABFF92691E4260055126E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AD1ABFFB2691E4350055126E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD1ABFFD2691E62E0055126E /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		AD1ABFFE2691E62E0055126E /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		AD1ABFFF2691E62E0055126E /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		AD1ABFE22691DE090055126E /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				AD1ABFFE2691E62E0055126E /* cart.png */,
+				AD1ABFFD2691E62E0055126E /* clock.png */,
+				AD1ABFFF2691E62E0055126E /* pencil.png */,
 				AD1ABFE32691DE090055126E /* AppDelegate.swift */,
 				AD1ABFE52691DE090055126E /* SceneDelegate.swift */,
-				AD1ABFE72691DE090055126E /* ViewController.swift */,
 				AD1ABFE92691DE0A0055126E /* Main.storyboard */,
 				AD1ABFEC2691DE0A0055126E /* Assets.xcassets */,
 				AD1ABFEE2691DE0A0055126E /* LaunchScreen.storyboard */,
 				AD1ABFF12691DE0A0055126E /* Info.plist */,
+				AD1ABFF72691E3C80055126E /* TableViewController.swift */,
+				AD1ABFF92691E4260055126E /* AddViewController.swift */,
+				AD1ABFFB2691E4350055126E /* DetailViewController.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -124,6 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1AC0022691E62E0055126E /* pencil.png in Resources */,
+				AD1AC0002691E62E0055126E /* clock.png in Resources */,
+				AD1AC0012691E62E0055126E /* cart.png in Resources */,
 				AD1ABFF02691DE0A0055126E /* LaunchScreen.storyboard in Resources */,
 				AD1ABFED2691DE0A0055126E /* Assets.xcassets in Resources */,
 				AD1ABFEB2691DE0A0055126E /* Main.storyboard in Resources */,
@@ -137,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1ABFE82691DE090055126E /* ViewController.swift in Sources */,
 				AD1ABFE42691DE090055126E /* AppDelegate.swift in Sources */,
+				AD1ABFF82691E3C80055126E /* TableViewController.swift in Sources */,
+				AD1ABFFC2691E4350055126E /* DetailViewController.swift in Sources */,
+				AD1ABFFA2691E4260055126E /* AddViewController.swift in Sources */,
 				AD1ABFE62691DE090055126E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
